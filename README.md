@@ -1,8 +1,8 @@
-# Simple legant Expense Tracker
+# Simple legant Expense Tracker 💸
 
 A simple command-line application for managing personal expenses. This tracker allows users to add, update, delete, view, and summarize their expenses. Users can also categorise expenses, set monthly budgets, and export their expenses to a CSV file.
 
-## Features
+## Features 📃
 
 - **Add Expenses:** Easily add expenses with descriptions, amounts, categories, and dates.
 - **Update Expenses:** Modify existing expenses by ID, updating their description, amount, or both.
@@ -14,7 +14,7 @@ A simple command-line application for managing personal expenses. This tracker a
 - **Check Budgets:** View how your expenses compare to the budget set for a specific month.
 - **Export to CSV:** Save all your expenses in a CSV file for easy viewing and sharing.
 
-## Installation
+## Installation 📝
 
 1. **Clone the repository:**
 
@@ -83,22 +83,22 @@ A simple command-line application for managing personal expenses. This tracker a
     python expense_tracker.py export --file expenses.csv
     ```
 
-## Data Storage
+## Data Storage 💼
 
 - **Expenses** are stored in `expenses.json` in the root directory of the project.
 - **Budgets** are stored in `budgets.json`, ensuring budgets are tracked by month.
 
-## Contributing
+## Contributing 👋🏻
 
 Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions or improvements.
 
-## License
+## License 🔑
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Example Output
+## Example Output 📈
 
 Here’s an example of what the **List Expenses** command would output:
 
@@ -110,23 +110,22 @@ ID    Date         Description          Amount      Category
 3     2024-10-12   Coffee               $3.00       Food
 ```
 
-## Roadmap
+## Roadmap 📌
 
-- [x] Basic expense tracking (add, update, delete)
-- [x] Summarize expenses by month
-- [x] Categorize expenses
-- [x] Set and check monthly budgets
+- ✅ Basic expense tracking (add, update, delete)
+- ✅ Summarize expenses by month
+- ✅ Categorize expenses
+- ✅ Set and check monthly budgets
 - [ ] Add support for recurring expenses
 - [ ] Integrate with Google Sheets for expense tracking
 
 ---
 
-### Get Started Today!
+### Get Started Today! 🚀
 
 Manage your finances efficiently with this simple yet powerful expense tracker. Clone the repo and start tracking your expenses today!
 
 ---
-## Credits
-https://roadmap.sh/projects/expense-tracker
-- Roadmap for this project was taken from this website -- roadmap.sh
+## Credits 🙏🏻
+- Roadmap for this project was taken from the website that is literally called [roadmap.sh](https://roadmap.sh/projects/expense-tracker)
 - With multiple exercises and projects to follow along, this website is a great resource for anyone looking to learn how to code.
